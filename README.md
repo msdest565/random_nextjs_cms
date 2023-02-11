@@ -4,7 +4,8 @@ npm install
 
 npm run develop
 ```
-
+账号：123456@qq.com
+密码：A123456a
 
 
 
