@@ -14,10 +14,12 @@
   "attributes": {
     "tagname": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "taglink": {
-      "type": "string"
+      "type": "string",
+      "unique": false
     }
   }
 }

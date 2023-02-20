@@ -42,6 +42,7 @@ const removeTime = (obj) => {
     return newObj;
   };
   
+  
   module.exports = {
     removeTime,
     removeAttrsAndId,

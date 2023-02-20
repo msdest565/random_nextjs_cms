@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "writer_lists",
+  "info": {
+    "singularName": "writer-list",
+    "pluralName": "writer-lists",
+    "displayName": "writerList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "writers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::writer.writer"
+    }
+  }
+}

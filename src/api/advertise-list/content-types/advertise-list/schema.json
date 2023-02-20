@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "advertise_lists",
+  "info": {
+    "singularName": "advertise-list",
+    "pluralName": "advertise-lists",
+    "displayName": "advertiseList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "advertises": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::advertise.advertise"
+    }
+  }
+}
